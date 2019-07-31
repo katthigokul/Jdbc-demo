@@ -13,7 +13,7 @@ public class JdbcTransactionDemo {
             e.printStackTrace();
         }
         try {
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/user", "root", "");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/user", "root", "test");
             connection.setAutoCommit(false);
 
             Statement stmt = connection.createStatement();
