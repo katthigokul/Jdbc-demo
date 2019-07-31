@@ -10,5 +10,8 @@ public class App
     {
         JdbcBasicDemo jdbc=new JdbcBasicDemo();
         jdbc.displayUser();
+        //jdbc.getUserByName("gokul");
+        DatabaseMetaDataDemo databaseMetaDataDemo=new DatabaseMetaDataDemo();
+        databaseMetaDataDemo.dBMetaData();
     }
 }
