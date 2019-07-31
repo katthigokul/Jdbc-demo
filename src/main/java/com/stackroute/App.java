@@ -13,5 +13,7 @@ public class App
         //jdbc.getUserByName("gokul");
         DatabaseMetaDataDemo databaseMetaDataDemo=new DatabaseMetaDataDemo();
         databaseMetaDataDemo.dBMetaData();
+        ResultSetMetaDataDemo resultSetMetaDataDemo=new ResultSetMetaDataDemo();
+        resultSetMetaDataDemo.resultMetaData();
     }
 }
